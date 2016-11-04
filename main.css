@@ -1,0 +1,168 @@
+/******************
+Allgemein
+******************/
+
+h5 {
+	margin-top: 5px; 
+	margin-left:5px;
+	font-size:25px;
+	color:black;
+}
+
+p {
+	font-size:18px;
+	color:black;
+}
+/******************
+Head
+******************/
+
+.button{
+	position: absolute;
+	bottom: 3vh;
+	left: calc(50% - 100px / 2);
+	background-color: rgba(0,0,0,0.75);
+	height: 100px;
+	width: 100px;
+	border-radius:100%;
+	background-position: center;
+}
+
+.button:hover{
+	background-color: rgba(0,0,0,0.5);
+}
+
+.button-svg {
+	fill: rgba(155,57,21,1);
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	top: calc(90% - 150px / 2);
+	left: calc(50% - 75px / 2);
+	background-position: center;
+	transform: rotate(90deg);
+	transition: all 0.3s ease-in-out;
+}
+
+.button-svg:hover{
+	fill: rgba(172,174,176,1);
+}
+
+.head{
+	height:100vh;
+	width:100%;
+	background-color: rgba(155,57,21,1);
+	background-image: url("./img/Logo.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	position: relative;
+}
+
+.headtitle{
+	position: absolute;
+	margin: 200px 0 0 50px;
+	font-family: Impact;
+	font-size: 60px;
+}
+
+.portfolio{
+	position: absolute;
+	margin:250px 0 0 50px;
+	font-family: Impact;
+	font-size:40px;
+}
+/******************
+Main
+******************/
+
+
+.main {
+	background-color: #BBBFC2;
+	color: #BBBFC2;
+	padding: 30px 0;
+
+}
+
+.footer {
+	width:100%;
+	height: 100px;
+	padding: 15px 0;
+	text-align: center;
+	align-items: center;
+	background-color: rgba(155,57,21,1);
+}
+
+
+.img-box {
+	position: relative;
+	overflow: hidden;
+	width: 17vw;
+	height: 17vw;
+	margin: 10px auto 10px auto;
+	box-shadow: 26px 27px 16px -13px rgba(0,0,0,0.5);
+}
+
+.img-box img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: auto;
+	height: 100%;
+	transform: translate(-50%,-50%);
+}
+
+.img-box img.portrait {
+	width: 100%;
+	height: auto;
+}
+
+.img-box-text-wrapper {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.75);
+	position: relative;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+}
+
+.img-box-hover-text {
+	width: 100%;
+	color: rgba(155,57,21,1);
+	font-size: 26px;
+	font-family: Courier;
+	text-align: center;
+	line-height: 36px;
+}
+
+.img-box-text-wrapper:hover {
+	opacity: 1;
+	cursor: default;
+}
+
+a {
+	color: #BBBFC2; 
+	font-size:30px;
+}
+
+a:hover {
+	color:red;
+	text-decoration: none;
+}
+
+/*.row{
+	background-color:(155,57,21,1);
+	top-margin:10px;
+}*/
+
+.center{
+	text-align:center;
+}
+
+.flex-box-middle {
+	display: flex;
+	align-items: center;
+}
