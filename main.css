@@ -10,21 +10,19 @@ h5 {
 }
 
 p {
-	font-family: Verdana;
 	font-size:18px;
-	color:#70706F;
+	color: #818a91;
 }
 
 h1{
-	font-family: Verdana;
-	color: white;
-	font-size: 30px
+	color: #1CC8FF;
+	font-size: 30px;
 }
 /******************
 Head
 ******************/
 
-.button{
+/*.button{
 	position: absolute;
 	bottom: 3vh;
 	left: calc(50% - 100px / 2);
@@ -33,14 +31,15 @@ Head
 	width: 100px;
 	border-radius:100%;
 	background-position: center;
-}
+}*/
 
-.button:hover{
+/*.button:hover{
 	background-color: rgba(0,0,0,0.5);
-}
+}*/
+          
 
 .button-svg {
-	fill: rgba(232,156,0,1);
+	fill: #1CC8FF;
 	width: 75px;
 	height: 75px;
 	position: absolute;
@@ -59,7 +58,7 @@ Head
 	height:100vh;
 	width:100%;
 	background-color: gray ;
-	background-image: url("./img/157_edit.jpg");
+	background-image: url("./img/115_edit.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
@@ -67,17 +66,20 @@ Head
 }
 
 .headtitle{
-	position: absolute;
-	margin: 200px 0 0 50px;
-	font-family: Impact;
-	font-size: 60px;
+	padding-top: 420px;
+	position: relative;
+	text-align: center;/*
+	font-family: Impact;*/
+	font-size: 100px;
+	   text-transform: uppercase;
 }
 
 .portfolio{
-	position: absolute;
-	margin:250px 0 0 50px;
-	font-family: Impact;
-	font-size:40px;
+	position: relative;
+	text-align: center;/*
+	font-family: Impact;*/
+	font-size:80px;
+	text-transform: uppercase;
 }
 /******************
 Main
@@ -85,11 +87,11 @@ Main
 
 
 .main {
+	height: 110vh;
 	width:100%;
-	background-color: #BBBFC2;
-	color: #BBBFC2;
+	background-color: #818a91;
+	opacity: 0.5
 	padding: 30px 0;
-
 }
 
 .footer {
@@ -98,7 +100,7 @@ Main
 	padding: 15px 0;
 	text-align: center;
 	align-items: center;
-	background-color: #E89C00;
+	background-color: #818a91;
 }
 
 
@@ -108,7 +110,7 @@ Main
 	width: 17vw;
 	height: 17vw;
 	margin: 10px auto 10px auto;
-	box-shadow: 26px 27px 16px -13px rgba(0,0,0,0.5);
+	box-shadow: 11px 10px 0px 1px rgba(0,0,0,0.1);
 }
 
 .img-box img {
@@ -131,7 +133,7 @@ Main
 	width: 100%;
 	height: 100%;
 	padding: 10px;
-	background-color: rgba(232, 156, 0, 0.75);
+	background-color: #1CC8FF;
 	position: relative;
 	opacity: 0;
 	transition: all 0.3s ease-in-out;
@@ -152,12 +154,12 @@ Main
 }
 
 a {
-	color: #BBBFC2; 
+	color: #818a91; 
 	font-size:30px;
 }
 
 a:hover {
-	color:red;
+	color:grey;
 	text-decoration: none;
 }
 
@@ -174,3 +176,4 @@ a:hover {
 	display: flex;
 	align-items: center;
 }
+
